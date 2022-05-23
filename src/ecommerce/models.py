@@ -7,7 +7,7 @@ class User(models.Model):
     name = models.CharField(max_length=50)
     lastname = models.CharField(max_length=50)
     email = models.CharField(max_length=50)
-    password = models.CharField(max_length=50)
+    password = models.CharField(max_length=350)
 
 
 class Category(models.Model):
